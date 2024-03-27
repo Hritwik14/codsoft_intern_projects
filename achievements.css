@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2)50%,rgba(0,0,0,0.2)50%), url("bgpic.jpeg") ;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-family: cursive;
+    color: red;
+}
+.heading:hover{
+    color:white;
+    transition: 0.8s ease-in-out;
+}
+.body{
+  padding-left: 45%;
+}
+h3{
+    color:red;
+    font-size: 30px;
+    font-family: cursive;
+}
+h3:hover{
+    color:white;
+    transition: 0.8s ease-in-out;
+}
+ul{
+    color:white;
+}
+.foot{
+    color: white;
+    display:flex;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2)50%,rgba(0,0,0,0.2)50%), url("bgpic.jpeg") ;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: cursive;
+}
+h1{
+    font-size: 50px;
+    color: red;
+    transition: 0.4s ease-in;
+}
+h1:hover{
+    color: white;
+}
+h2:hover{
+    color:red;
+    cursor: pointer;
+}
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    border: 2px solid black;
+    height: 500px;
+    width:35%;
+    background-color: white;
+    padding:20px 0px 15px;
+}
+.box-img{
+    height: 450px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color:#007185;
+}
