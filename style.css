@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    border: 0;
+}
+body{
+    background: url("BGP.webp");
+    background-position: center;
+    background-size: cover;
+}
+.basic{
+    height:300px;
+    width: 300px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.basic h3{
+    font-family:'Courier New', Courier, monospace
+}
+.mypic{
+    position: relative;
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-image: url("mypic.jpg");
+    background-size: cover;
+    transition: 1.2s ease-out;
+}
+.mypic:hover{
+    height: 400px;
+    width: 400px;
+}
+.home{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name{
+     font-size: 2.5rem;
+     margin: 0;
+     background-image: url("text.jpg");
+     background-size: cover;
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+     transition: font-size 1.2s ease-out;
+}
+.name:hover{
+    font-size: 4rem;
+} 
+.navbar{
+    display: flex;
+    width: 85%;
+    padding: 20px 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+}
+.navbar ul li a:hover{
+    color:red;
+}
+#socials{
+    font-weight: 500;
+    padding-bottom: 20px;
+}
